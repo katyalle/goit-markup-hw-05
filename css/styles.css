@@ -433,6 +433,8 @@ text-align: center;
 .all-footer{
     display: flex;
     align-items: baseline;
+    padding: 0;
+    margin-left: 158px;
 }
  .div-link {
      margin-right: 120px;
@@ -530,7 +532,7 @@ text-align: center;
 }
 .form {
     display: flex;
-    gap: 24px;
+
 }
 .input-sub {
     font-size: 12px;
@@ -572,9 +574,7 @@ text-align: center;
     padding-left: 24px;
 
 }
-.svg-sub {
-    margin-left: 16px;
-}
+
 /* ---------------------PORTFOLIO--------------------------------------------- */
 .portfolio-button{
     padding-top: 96px;
@@ -795,7 +795,7 @@ text-align: center;
   .close-modal {
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       top: 50%;
-      transform: translateY(-50%);
+     
 
   }
 
