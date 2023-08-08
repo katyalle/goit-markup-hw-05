@@ -423,18 +423,13 @@ text-align: center;
    
 
   .footer {
-    display: flex;
-    flex-grow: 1;
-    Width: 1440px;
-    Height: 312px;
     background-color: var(--background-color);
     padding: 100px 0
 }
 .all-footer{
     display: flex;
     align-items: baseline;
-    padding: 0;
-    margin-left: 158px;
+  
 }
  .div-link {
      margin-right: 120px;
@@ -528,7 +523,7 @@ text-align: center;
 }
 .sub-sec {
     display: block;
-    padding-left: 80px;
+    margin-left: 80px;
 }
 .form {
     display: flex;
@@ -793,12 +788,18 @@ text-align: center;
   }
 
   .close-modal {
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     fill: NAVY BLUE;
+     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       top: 50%;
      
 
   }
-
+.close-modal:hover{
+    fill:#FFFFFF ;
+}
+.close-modal:focus {
+    fill: #FFFFFF;
+}
   .modal-close {
       fill: #FFFFFF;
   }
@@ -823,10 +824,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
             color: #2E2F42;
             margin-bottom: 16px;
         }
-        .modal-form {
-            margin-left: 24px;
-            margin-right: 24px;
-        }
+        
         .modal-field {
         margin-bottom: 8px;
         }
@@ -865,13 +863,19 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 .svg-modal {
+    fill:#2E2F42;
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.svg-modal:hover{
+    fill: #4D5AE5;
+}
+.svg-modal:focus {
+    fill: #4D5AE5;
+}
 .modal-field-- {
     margin-bottom: 24px;
 }
@@ -887,7 +891,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .check-span {
     display: inline-flex;
-    display: block;
+    display: flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -897,7 +901,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     fill: transparent;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+ margin-bottom: 24px;
 }
 .modal-check:checked+.check-text span {
     fill: #F4F4FD;
@@ -922,6 +926,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.04em;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 }
 
@@ -955,7 +960,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-input:focus+.phone-email-svg {
     fill: #4D5AE5;
 }
-
+.accept-title{
+    margin-bottom: 24px;
+}
 
 
 
