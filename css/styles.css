@@ -898,13 +898,16 @@ gap: 24px;
 .check-span {
     display: inline-flex;
     border-radius: 2px;
-    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+
+
     margin-right: 8px;
     align-items: center;
     justify-content: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  margin-bottom: 24px;
+ width: 16px;
+height: 16px;
 }
 .modal-check:checked+.check-text span {
     fill: #F4F4FD;
@@ -949,7 +952,7 @@ gap: 24px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .modal-input-second:focus {
