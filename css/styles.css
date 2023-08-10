@@ -527,7 +527,7 @@ text-align: center;
 }
 .form {
     display: flex;
-
+gap: 24px;
 }
 .input-sub {
     font-size: 12px;
@@ -569,7 +569,9 @@ text-align: center;
     padding-left: 24px;
 
 }
-
+.svg-sub{
+    margin-left: 16px;
+}
 /* ---------------------PORTFOLIO--------------------------------------------- */
 .portfolio-button{
     padding-top: 96px;
