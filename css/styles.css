@@ -830,7 +830,9 @@ gap: 24px;
         .modal-field {
         margin-bottom: 8px;
         }
-
+.modal-field-one{
+    margin-bottom: 16px;
+}
 .input-tips {
     display: block;
     margin-top: 4px;
